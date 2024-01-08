@@ -18,7 +18,7 @@ def alarm():
         formatted_time = current_datetime.strftime("%H:%M")
         time.sleep(1)
         if formatted_date == reminddate and formatted_time == remindtime:
-            notification("-- Reminder --", f"note: {note}\ncoded with love by github.com/infamouskoala", "src\\notification.mp3")
+            notification("-- Reminder --", f"note: {note}\ncoded with love by github.com/kshvsec", "src\\notification.mp3")
             print(f"{note}")
             input()
             break
